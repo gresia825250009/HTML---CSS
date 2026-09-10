@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="page">
+        <section class="intro">
+            <p class="label">Student identity</p>
+            <h1>ID Card Mahasiswa</h1>
+            <p>Buat dan hapus kartu identitas dengan tombol di bawah.</p>
 
+            <div class="buttons">
+                <button id="create-card" class="button create" type="button">Buat ID card</button>
+                <button id="remove-card" class="button remove" type="button">Hapus kartu</button>
+            </div>
+
+            <p id="status" class="status" role="status">Kartu belum dibuat.</p>
+        </section>
+
+        <section class="preview" aria-label="Preview ID card">
+            <p class="label">Preview</p>
+            <div id="card-container" class="card-container">
+                <p class="empty">Klik <strong>Buat ID card</strong> untuk menampilkan kartu.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
