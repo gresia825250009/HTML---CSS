@@ -1,1 +1,136 @@
+* { box-sizing: border-box; }
 
+body {
+    min-width: 320px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e3a5f;
+}
+
+.page {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Intro di kiri */
+.intro {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.intro h1 { 
+    margin: 12px 0; 
+    font-size: 36px; 
+    color: #1e3a5f; 
+}
+
+.label { 
+    margin: 0; 
+    color: #ef7665; 
+    font-size: 12px; 
+    font-weight: bold; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+}
+
+.buttons { 
+    margin-top: 24px; 
+}
+
+.button { 
+    border: 0; 
+    border-radius: 10px; 
+    padding: 12px 16px; 
+    cursor: pointer; 
+    font-weight: bold; 
+}
+
+.create { 
+    background: #1e3a5f; 
+    color: white; 
+}
+
+.remove { 
+    background: white; 
+    border: 1px solid #cbd5e1; 
+    color: #1e3a5f; 
+}
+
+.status { 
+    margin-top: 14px; 
+    color: #64748b; 
+    font-size: 14px; 
+}
+
+/* Preview di kanan */
+.preview { 
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding: 20px;
+    border: 1px solid #dbe4ec;
+    border-radius: 18px;
+    background: white;
+}
+
+.card-container {
+    display: flex;              
+    justify-content: center;   
+    align-items: center;     
+    width: 100%;
+    min-height: 280px;
+    margin-top: 14px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #edf3f7;
+    text-align: center;
+}
+
+.empty { 
+    max-width: 250px; 
+    color: #94a3b8; 
+    line-height: 1.6; 
+}
+
+.empty strong { 
+    color: #1e3a5f; 
+}
+
+.student-card { 
+    width: 100%; 
+    max-width: 390px; 
+    padding: 24px; 
+    border-radius: 16px; 
+    background: #1e3a5f; 
+    color: white; 
+}
+
+.student-card header { 
+    padding-bottom: 18px; 
+    border-bottom: 1px solid #ffffff44; 
+    font-size: 12px; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+}
+
+.student-card h2 { 
+    margin: 20px 0 8px; 
+    font-size: 24px; 
+}
+
+.student-card p { 
+    margin: 0; 
+    color: #ffb0a6; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+}
+
+.student-card footer { 
+    margin-top: 20px; 
+    color: #ffffff99; 
+    font-size: 11px; 
+}
